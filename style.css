@@ -1,6 +1,12 @@
-
+body{
+    background-image: url(/img/bg-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .nav-bar{
     overflow: hidden;
+    background-color: white;
 }
 
 .nav-brand{
@@ -46,15 +52,9 @@ li a:hover{
     color:grey;
 }
 .section{
-    border: 1px solid white;
-    border-radius: 1%;
+   
     height: 46rem;
     margin: 40px 120px ;
-    background-image: url(/img/bg-5.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    background-position-x: top;
 
 }
 .content{
