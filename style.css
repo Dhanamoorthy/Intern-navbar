@@ -1,0 +1,76 @@
+
+.nav-bar{
+    overflow: hidden;
+}
+
+.nav-brand{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-brand span{
+    margin-left: 8.33%;
+    width: max-content;
+    font-size: 20px;
+    padding: 0 0 0 10px;
+    letter-spacing: 0.5;
+    font-family: 'PT Serif', serif;
+}
+.nav-brand i{
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+.navbar-item ul{
+ 
+    display: flex;
+    align-items: center;
+    width: 40rem;
+    margin-left: 60%;
+    list-style-type: none;
+}
+.navbar-item li i{
+   color: red;
+}
+li{
+   
+    margin-left: 25px;
+    padding-right: 2px;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Crimson Pro', serif;
+}
+li a:hover{
+    color:grey;
+}
+.section{
+    border: 1px solid white;
+    border-radius: 1%;
+    height: 46rem;
+    margin: 40px 120px ;
+    background-image: url(/img/bg-5.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-position-x: top;
+
+}
+.content{
+    color: white;
+    text-align: left;
+    margin-top: 40%;
+    padding: 0 30px;
+    word-spacing: 5px;
+}
+.content h1{
+    font-family:'PT Serif', serif ;
+    font-size: 25px;
+    text-align: left;
+}
+.content p{
+    font-family:  'Crimson Pro', serif;
+    font-size: 18px;
+    text-align: left;
+}
